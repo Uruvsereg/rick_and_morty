@@ -42,29 +42,13 @@ function App () {
             setCharacters((char) => [...char, data]);
           }
           else{
-            // if(char !== data){
-            //   setCharacters((oldChars) => [...oldChars, data]);
-            // }
-            // else{
               window.alert("El personaje ya está agregado");
-            // }
           }
         }
         else {
           window.alert("No hay personajes con ese ID");
         }
       })
-    // fetch(`http://localhost:3001/rickandmorty/onsearch/${character}`)
-    //   .then((response) => response.json())
-    //   .then((data) => {
-    //     console.log(data);
-    //     if (data.id) {
-    //       setCharacters((oldChars) => [...oldChars, data]);
-    //     } else {
-    //       alert('No hay personajes con ese ID');
-    //     }
-    //   })
-    //   .catch(err => console.log(err))
   }
 
   const onClose=(id)=>{
@@ -92,6 +76,3 @@ function App () {
 }
 
 export default App
-
-// Hace falta
-// desafío react-router
