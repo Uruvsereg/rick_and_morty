@@ -1,0 +1,59 @@
+.root{
+    background-image: url('../../IMG/estatus.avif');
+}
+.leyenda{
+    background-image: url('../../IMG/estatus.avif');
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    width: 1850px;
+    height:850px;
+    border-radius: 50px;
+    box-shadow: 0 0 50px aqua;
+    position:absolute;
+    margin-top:20px;
+    margin-left:0px;
+}
+.leyenda h1{
+    position: absolute;
+    text-shadow: 0 0 30px darkred;
+    align-items: center;
+    margin-top: -10px;
+    margin-left: 765px;
+}
+.leyenda h3{
+    margin-top: 10px;
+    margin-left: 1500px;
+    color:darkred;
+    text-shadow: 0 0 20px black;
+}
+.esc{
+    width: 400px;
+    height: 55px;
+    margin-left:170px;
+    margin-top: 30px;
+}
+.esc h4{
+    margin-top: 40px;
+    color: chartreuse;
+    text-shadow: 0 0 30px rgb(104, 0, 0);
+}
+.esc h5{
+    margin-top:-15px;
+    color: darkgreen;
+    text-shadow: 0 0 10px rgb(255, 0, 0);
+}
+.mj{
+    width: 370px;
+    margin-left:193px;
+    margin-top: 35px;
+}
+.mj h6{
+    color:wheat;
+    margin-top: 40px;
+}
+.mj p{
+    color: whitesmoke;
+    margin-top: -20px;
+}

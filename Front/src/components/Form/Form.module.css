@@ -1,0 +1,64 @@
+body{
+    background-image: url('../../IMG/intro.jpg');
+}
+.ing{
+    margin-top: 220px;
+    margin-left: 345px;
+    width: 1190px;
+    display:flex;
+    position: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logp{
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: row;
+    color: red;
+    font-size: 20px;
+    text-shadow: 0 0 12px rgb(67, 203, 248);
+}
+.loginu{
+    width: 500px;
+    height: 200px;
+    color:violet;
+    padding-right: 0px;
+    background-color: rgba(240, 248, 255, 0);
+    font-size: 35px;
+}
+.loginu input{
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+}
+.loginp{
+    width: 500px;
+    height: 200px;
+    color: aqua;
+    padding-right: 20px;
+    padding-left: 0px;
+    background-color: rgba(240, 248, 255, 0);
+    font-size: 35px;
+}
+.loginp input{
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+
+}
+.bot{
+    display:flex;
+    justify-content: center;
+    padding-top:130px;
+}
+.bot button{
+    position:absolute;
+    justify-content: center;
+    color: red;
+    font-size: 30px;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(240, 248, 255, 0);
+    border:1px solid rgba(0, 255, 255, 0);
+}

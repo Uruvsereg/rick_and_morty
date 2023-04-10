@@ -1,0 +1,39 @@
+:root{
+    background-image: url('../../IMG/Cave_2.jpg');
+}
+.c{
+    /* gap: 8%;
+    margin: 3%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 60px;
+    align-items: stretch;
+    background-image: url('../../IMG/Cave_2.jpg');
+    background-Size: cover;
+    background-position: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    width: 1850px;
+    height:850px;
+    resize: both;
+    overflow: auto;
+    border-radius: 50px;
+    margin-top:0px;
+    margin-left:0px;
+    box-shadow: 0 0 50px rgba(35, 13, 13, 0.542); */
+    background-image: url('../../IMG/Cave_2.jpg');
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 60px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 1850px;
+    height:850px;
+    position:absolute;
+    border-radius: 50px;
+    margin-top:0px;
+    margin-left:0px;
+    box-shadow: 0 0 50px rgba(35, 13, 13, 0.542);
+}

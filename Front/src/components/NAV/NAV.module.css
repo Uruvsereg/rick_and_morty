@@ -1,0 +1,14 @@
+.n{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 10px;
+    width: 1750px;
+    height: 25px;
+    text-align: center;
+    margin-left: 100px;
+}
+.n button{
+    background-color: rgb(18, 196, 27);
+    border-radius: 10px;
+}
