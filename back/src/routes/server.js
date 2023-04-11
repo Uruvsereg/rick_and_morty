@@ -9,8 +9,7 @@ app.use(cors())
 app.get("/rickandmorty/character/:id", async (req, res) => {
     const { id }= req.params
     try {
-        const response = await axios(`https:///rickandmortyapi.com/api/character/${id}`)
-        const data = response.data
+        const { data } = await axios(`https:///rickandmortyapi.com/api/character/${id}`);
 
         const infoChar = {
             id: data.id,
@@ -29,15 +28,15 @@ app.get("/rickandmorty/character/:id", async (req, res) => {
 app.get("/rickandmorty/detail/:detailId", async (req, res) => {
     try {
         const { detailId }= req.params;
-        const response = (await axios(`https:///rickandmortyapi.com/api/character/${detailId}`)).data;
+        const { data } = (await axios(`https:///rickandmortyapi.com/api/character/${detailId}`));
     
         const infoCharDet = {
-            name: response?.name,
-            status: response?.status,
-            species: response?.species,
-            gender: response?.gender,
-            origin: response?.origin,
-            image: response?.image
+            name: data.name,
+            status: data.status,
+            species: data.species,
+            gender: data.gender,
+            origin: data.origin.name,
+            image: data.image
         }
         res.status(200).json(infoCharDet);
     }

@@ -11,7 +11,8 @@ const Detalles=()=>{
           .then((char) => {
             if (char.name) {
               setCharacter(char);
-            } else {
+            }
+            else {
               window.alert("No hay personajes con ese ID");
             }
           })
